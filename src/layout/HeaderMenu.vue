@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HeaderMenuButton from '@/components/HeaderMenuButton.vue';
+import HeaderMenuButton from '@/components/ui/header-button/HeaderMenuButton.vue';
 import {
 	IconAward,
 	IconBarChart,
