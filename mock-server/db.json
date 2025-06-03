@@ -26,22 +26,8 @@
 							"level": 1,
 							"pickem_group_id": 1,
 							"parent_id": null,
-							"first_team": {
-								"id": 3,
-								"title": "Vitality",
-								"logo_url": "/logos/team-vitality.png",
-								"country": null,
-								"deleted_at": null,
-								"players": []
-							},
-							"second_team": {
-								"id": 10,
-								"title": "FURIA",
-								"logo_url": "/logos/team-falcons.png",
-								"country": null,
-								"deleted_at": null,
-								"players": []
-							},
+							"first_team": null,
+							"second_team": null,
 							"winner_team": null,
 							"first_score": null,
 							"second_score": null,
@@ -52,21 +38,14 @@
 									"pickem_group_id": 1,
 									"parent_id": 1,
 									"first_team": {
-										"id": 2,
-										"title": "Natus Vincere",
+										"id": 8,
+										"title": "The MongolZ",
 										"logo_url": "/logos/team-the_huns.png",
 										"country": null,
 										"deleted_at": null,
 										"players": []
 									},
-									"second_team": {
-										"id": 9,
-										"title": "Astralis",
-										"logo_url": "/logos/team-astralis.png",
-										"country": null,
-										"deleted_at": null,
-										"players": []
-									},
+									"second_team": null,
 									"winner_team": null,
 									"first_score": null,
 									"second_score": null,
@@ -103,7 +82,14 @@
 												"deleted_at": null,
 												"players": []
 											},
-											"winner_team": null,
+											"winner_team": {
+												"id": 8,
+												"title": "The MongolZ",
+												"logo_url": "/logos/team-the_huns.png",
+												"country": null,
+												"deleted_at": null,
+												"players": []
+											},
 											"first_score": null,
 											"second_score": null,
 											"children": []
@@ -141,18 +127,11 @@
 									"level": 2,
 									"pickem_group_id": 1,
 									"parent_id": 1,
-									"first_team": {
-										"id": 5,
-										"title": "Virtus.pro",
-										"logo_url": "/logos/team-virtus_pro.png",
-										"country": null,
-										"deleted_at": null,
-										"players": []
-									},
+									"first_team": null,
 									"second_team": {
-										"id": 11,
-										"title": "Imperial",
-										"logo_url": "/logos/team-astralis.png",
+										"id": 3,
+										"title": "Vitality",
+										"logo_url": "/logos/team-vitality.png",
 										"country": null,
 										"deleted_at": null,
 										"players": []
@@ -208,7 +187,14 @@
 												"deleted_at": null,
 												"players": []
 											},
-											"winner_team": null,
+											"winner_team": {
+												"id": 3,
+												"title": "Vitality",
+												"logo_url": "/logos/team-vitality.png",
+												"country": null,
+												"deleted_at": null,
+												"players": []
+											},
 											"first_score": null,
 											"second_score": null,
 											"children": []
@@ -231,22 +217,8 @@
 							"level": 1,
 							"pickem_group_id": 6,
 							"parent_id": null,
-							"first_team": {
-								"id": 2,
-								"title": "Natus Vincere",
-								"logo_url": "/logos/team-spirit.png",
-								"country": null,
-								"deleted_at": null,
-								"players": []
-							},
-							"second_team": {
-								"id": 11,
-								"title": "Imperial",
-								"logo_url": "/logos/team-spirit.png",
-								"country": null,
-								"deleted_at": null,
-								"players": []
-							},
+							"first_team": null,
+							"second_team": null,
 							"winner_team": null,
 							"first_score": null,
 							"second_score": null,
@@ -256,17 +228,10 @@
 									"level": 2,
 									"pickem_group_id": 6,
 									"parent_id": 8,
-									"first_team": {
+									"first_team": null,
+									"second_team": {
 										"id": 5,
 										"title": "Virtus.pro",
-										"logo_url": "/logos/team-virtus_pro.png",
-										"country": null,
-										"deleted_at": null,
-										"players": []
-									},
-									"second_team": {
-										"id": 8,
-										"title": "The MongolZ",
 										"logo_url": "/logos/team-virtus_pro.png",
 										"country": null,
 										"deleted_at": null,
@@ -309,7 +274,8 @@
 									"level": 2,
 									"pickem_group_id": 6,
 									"parent_id": 8,
-									"first_team": {
+									"first_team": null,
+									"second_team": {
 										"id": 1,
 										"title": "Spirit",
 										"logo_url": "/logos/team-spirit.png",
@@ -327,14 +293,6 @@
 												"deleted_at": null
 											}
 										]
-									},
-									"second_team": {
-										"id": 10,
-										"title": "FURIA",
-										"logo_url": "/logos/team-spirit.png",
-										"country": null,
-										"deleted_at": null,
-										"players": []
 									},
 									"winner_team": null,
 									"first_score": null,

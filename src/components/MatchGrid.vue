@@ -53,14 +53,13 @@ const groupedGames = computed<GroupedGames>(() => {
 			result[game.level - 1] = [];
 		}
 
-		const maxLevel = findMaxLevel(props.matches);
 		result[game.level - 1].push({
 			id: game.id,
 			level: game.level,
 			pickem_group_id: game.pickem_group_id,
 			parent_id: game.parent_id,
-			first_team: game.level === maxLevel ? game.first_team : null,
-			second_team: game.level === maxLevel ? game.second_team : null,
+			first_team: game.first_team,
+			second_team: game.second_team,
 			winner_team: game.winner_team,
 			first_score: game.first_score,
 			second_score: game.second_score,

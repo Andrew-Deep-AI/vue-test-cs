@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { IconChevron } from './ui';
 import type { Match, Team } from '@/types/tournamentData';
 
@@ -75,6 +75,12 @@ const setTeam = (team: Team | null) => {
 		setTeamStatus.value = true;
 	}
 };
+
+onMounted(() => {
+	if (props.games.winner_team) {
+		setTeamStatus.value = true;
+	}
+});
 </script>
 <template>
 	<div
