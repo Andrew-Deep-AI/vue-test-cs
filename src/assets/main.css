@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@import './base.css';
+@theme {
+	--font-inter: 'Inter', sans-serif;
+}
+html {
+	background-color: var(--bg-pages-color);
+}
+.main-container {
+	width: 100%;
+	max-width: 73.75rem;
+	margin: 0 auto;
+}
